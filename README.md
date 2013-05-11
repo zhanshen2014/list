@@ -9,7 +9,7 @@ with MSVC++ with a [hack][2].
 [2]: https://raw.github.com/mozilla/rust/master/src/rt/msvc/typeof.h
 
 Features
-========
+--------
 
    * "Object in list" rather than "list in object": the listed objects do not
      have to be aware of the list
@@ -28,7 +28,7 @@ Features
      `continue` normally.
 
 List operations
-===============
+---------------
 
      list(type, name)                 Declare a list
      list_push(list, value)           Push value to back
@@ -40,8 +40,8 @@ List operations
      list_clear(list)                 Clear the list (freeing all memory)
 
 Element (pointer) operations
-============================
- 
+---------------------------- 
+
      list_elem_front(list)            Returns element at the front of list
      list_elem_back(list)             Returns element at the back of list
      list_elem_next(elem)             Returns element after elem
@@ -49,7 +49,7 @@ Element (pointer) operations
      list_elem_remove(elem)           Remove element elem
 
 Loops
-=====
+-----
 
      list_each(list, elem) { ... }
 
