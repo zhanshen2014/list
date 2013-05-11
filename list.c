@@ -2,6 +2,7 @@
 /* vim: set ft=c et ts=3 sw=3 sts=3:
  *
  * Copyright (C) 2013 James McLaughlin.  All rights reserved.
+ * http://github.com/udp/list
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
