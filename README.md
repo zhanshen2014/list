@@ -5,8 +5,11 @@ other stuff.
 Uses `typeof` and statement expressions which are GNU extensions, but will work
 with MSVC++ with a [hack][2].
 
+For a usage example, see [test.c][3].
+
 [1]: https://github.com/udp/lacewing
 [2]: https://raw.github.com/mozilla/rust/master/src/rt/msvc/typeof.h
+[3]: https://github.com/udp/list/blob/master/test.c
 
 Features
 --------
